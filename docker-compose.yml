@@ -14,7 +14,7 @@ services:
     restart: always
   db:
     image: 14luxoo/tienda-db:latest
-    build: ./backend
+    build: ./db
     ports: 
       - "3306:3306"
     restart: always 
