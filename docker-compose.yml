@@ -1,7 +1,6 @@
 version: '3.8'
 services:
   frontend:
-   web:
     image: 14luxoo/tienda-frontend:latest
     build: ./fronted
     ports:
