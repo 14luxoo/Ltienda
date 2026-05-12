@@ -2,7 +2,7 @@ version: '3.8'
 services:
   frontend:
     image: 14luxoo/tienda-frontend:latest
-    build: ./fronted
+    build: ./frontend
     ports:
       - "3000:3000"
     restart: always
